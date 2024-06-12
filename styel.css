@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #ff5733;
+    color: rgb(14, 13, 13);
+    padding: 1em;
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCqNiKLl49-8rYZnfrc7Ip3H9SCzZMG9iE7w&s);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 1em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #ff5733;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea, form button {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff704d;
+}
+
+#formResponse {
+    margin-top: 1em;
+    color: green;
+}
+
